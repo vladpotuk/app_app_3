@@ -7,7 +7,7 @@ public static class StringExtensions
         int count = 0;
         foreach (char c in input.ToLower())
         {
-            if ("aeiouAEIOU".Contains(c))
+            if ("aeiouyAEIOUY".Contains(c))
             {
                 count++;
             }
