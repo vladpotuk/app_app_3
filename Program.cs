@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 public static class StringExtensions
 {
     public static int CountSentences(this string input)
